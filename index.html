@@ -15,7 +15,7 @@
 </head>
 <body class="bg-dark">
     <div class="wrapper">
-        <nav class=class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     </div>
@@ -62,11 +62,27 @@
                     <p>Filter Search</p>
                     <ul class="list-group" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
                         <li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
-                            <label for="date">Enter Date</label>
+                            <label for="date" class="text-color">Enter Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
-                        <li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
+                        <!--<li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
                             <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                        </li>-->
+                        <li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
+                            <label for="city" class="text-color">Enter a City</label>
+                            <input type="text" placeholder="roswell" id="city" />
+                        </li>
+                        <li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
+                            <label for="state" class="text-color">Enter a State</label>
+                            <input type="text" placeholder="ca" id="state" />
+                        </li>
+                        <li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
+                            <label for="country" class="text-color">Enter a Country</label>
+                            <input type="text" placeholder="us" id="country" />
+                        </li>
+                        <li class="list-group-item" class="bg-dark" style="font-family: inherit; font-size: 1rem;">
+                            <label for="shape" class="text-color">Enter a Shape</label>
+                            <input type="text" placeholder="circle" id="shape" />
                         </li>
                     </ul>
                 </form>
